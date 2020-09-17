@@ -1,340 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-  	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175509539-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-	  gtag('config', 'UA-175509539-1');
-	</script>
+  <title>Personal Website</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
 
-    <title>Jaume Vives Website</title>
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
 
-  </head>
+  <!-- Favicon -->
 
-  <body>
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
-      <i class="fa fa-bars"></i>
-    </a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
-          <i class="fa fa-times"></i>
-        </a>
-        <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#top">Website</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#top">Home</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#projects">Projects</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#portfolio">Sample Work</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#contact" onclick=$( "#menu-close").click();>Contact</a>
-        </li>
-      </ul>
-    </nav>
+  <!-- =======================================================
+    Theme Name: Folio
+    Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
 
-    <!-- Header -->
-    <header class="header" id="top">
-      <div class="text-vertical-center">
-        <h1> <font color="white"> Jaume Vives i Bastida </font></h1>
-        <h3> <font color="white"> Economics and Statistics at MIT </font></h3>
-        <br>
-        <!--<a href="https://www.linkedin.com/in/jaume-vives-596586bb?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BqSW5GLYyQRO8lknMzyBU%2FQ%3D%3D" class="btn btn-light btn-lg"> Linkedin</a> -->
-        <a href="#about" class="btn btn-light btn-lg js-scroll-trigger">About</a>
-        <a href="https://drive.google.com/file/d/1kY2D-WvXGIgft-nQVlI2BLalaP4dJZYy/view?usp=sharing" class="btn btn-light btn-lg"> Curriculum</a>
-        <h3></h3>
-        <span class="fa-stack fa-3x">
-          <a href="https://github.com/jvivesb">
-            <i class="fa fa-github fa-stack18x"></i>
-          </a>
-        </span>
-        <span class="fa-stack fa-3x">
-          <a href="https://www.linkedin.com/in/jaume-vives-596586bb?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BqSW5GLYyQRO8lknMzyBU%2FQ%3D%3D">
-            <i class="fa fa-linkedin fa-stack18x"></i>
-          </a>
-        </span>
-      </div>
-    </header>
+<body>
 
-    <!-- About -->
-    <section id="about" class="about">
-      <div class="container text-center">
-        <h2>About Me</h2>
-        <p class="lead">I am a PhD candidate in Economics and Statistics at MIT. I study topics at the intersection of Econometrics and Statistical Learning and I am interested in applications to market design, applied microeconomics and IO. Previously, I studied at LSE and UC Berkeley and worked as a research assistant at the University of Chicago Booth. Besides academia, I have experience in various data science positions at Quantco, Google and in finance.
-        <!--  <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p> -->
-      </div>
-      <!-- /.container -->
-    </section>
-
-    <!-- Services -->
-    <section id="projects" class="projects bg-primary text-white">
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
       <div class="container">
-        <div class="row text-center">
-          <div class="col-lg-10 mx-auto">
-            <h2>Projects</h2>
-            <hr class="small">
-            <div class="row">
-              <div class="col-md-3 col-sm-6">
-                <div class="project-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                  </span>
-                  <h4>
-                    <strong>ML Society at LSE</strong>
-                  </h4>
-                  <p>Founded LSE's first Machine Learning society with the aim of applying ML to Economic and Social problems</p>
-                  <a href="https://mlatlse.github.io" class="btn btn-light">Learn More</a>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="project-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                  </span>
-                  <h4>
-                    <strong>Vyrill</strong>
-                  </h4>
-                  <p>As project manager of ML@B I co-led a team of 8 students to develop a sentence level sentiment analyzer for video transcripts</p>
-                  <a href="https://drive.google.com/file/d/0B_Y_l2arIrHsQUVqVVZyb2FzYjQ/view?usp=sharing" class="btn btn-light">Learn More</a>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="project-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                  </span>
-                  <h4>
-                    <strong>Grand Rounds</strong>
-                  </h4>
-                  <p>As project manager of ML@B I co-led a team of 8 students to develop a predicition system to identify medical costs and surgical anomalies</p>
-                  <a href="https://www.grandrounds.com" class="btn btn-light">Learn More</a>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="project-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-cube fa-stack-1x text-primary"></i>
-                  </span>
-                  <h4>
-                    <strong>Game Theory Explorer</strong>
-                  </h4>
-                  <p>Google Summer of Code GTE project at LSE on finding and displaying Nash Equilibria for n player games</p>
-                  <a href="https://github.com/gambitproject/jsgte/blob/master/INFOS/jaume.md" class="btn btn-light">Learn More</a>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="project-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-mortar-board fa-stack-1x text-primary"></i>
-                  </span>
-                  <h4>
-                    <strong>LSE Groups</strong>
-                  </h4>
-                  <p>Our group won the LSE and Imperial GROUPS research competition and we presented our paper at the British Conference of Undergraduate Research</p>
-                  <a href="https://drive.google.com/file/d/0B_Y_l2arIrHsMjM5Q29xeHhOM28/view?usp=sharing" class="btn btn-light">Learn More</a>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="project-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-area-chart fa-stack-1x text-primary"></i>
-                  </span>
-                  <h4>
-                    <strong>Philippines Regions</strong>
-                  </h4>
-                  <p>Developped C++ script to compute regional areas of the Philippines from geo polygons for Dr. McDoom</p>
-                  <a href="https://github.com/jvivesb/philippines_areas" class="btn btn-light">Learn More</a>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="project-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-line-chart fa-stack-1x text-primary"></i>
-                  </span>
-                  <h4>
-                    <strong>Clustering Social Mobility</strong>
-                  </h4>
-                  <p>Analysis of what features are shared among US colleges with higher mobility using Equality of Opportunity project Data</p>
-                  <a href="https://github.com/jvivesb/clutering_mobility/blob/master/Clustering.ipynb" class="btn btn-light">Learn More</a>
-                </div>
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#research" class="smoothScroll">Research</a></li>
+          <li><a href="#journal" class="smoothScroll">Media</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+
+
+  <!-- start section header -->
+  <div id="header" class="home">
+
+    <div class="container">
+      <div class="header-content">
+        <h1>I'm <span class="typed"></span></h1>
+        <p>doctoral student in Economics and Statistics</p>
+        <ul class="list-unstyled list-social">
+          <li><a href="https://www.linkedin.com/in/jaume-vives-596586bb/"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="https://github.com/jvivesb"><i class="ion-social-github"></i></a></li>
+          <li><a href="https://twitter.com/jaumevivesb?lang=en"><i class="ion-social-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End section header -->
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/foto.png" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">PhD in Economics and Statistics at MIT.  </p>
+            
+            <p class="separator">I study topics at the intersection of Econometrics and Statistical Learning and I am interested in applications to market design, applied microeconomics and IO. </p>
+
+            <p class="separator">Previously, I studied at LSE and UC Berkeley and worked as a research assistant at the University of Chicago Booth. Besides academia, I have experience in various data science positions at Quantco, Google and in finance. </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+
+
+  <!-- start section services -->
+  <div id="services">
+    <div class="container">
+      <div class="services-block">
+        <a href="https://drive.google.com/file/d/1XBL4r2byYPa6lxMF0Xe-ygecXxjJjw2g/view?usp=sharing" class="btn btn-light btn-lg"> Curriculum</a>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- end section services -->
+
+
+  <!-- start section portfolio -->
+  <div id="research" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Research</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-6">
+          <h6>Stretching the Net: Multidimensional Regularization", second resubmission at Econometric Theory</h6>
+          <p></p>
+          <div class="col-lg-4 ">
+            <div class="div-img-bg">
+              <div class="about-img">
+                <img src="images/elastic.jpg" alt="paper" width="525" height="450">
               </div>
             </div>
-            <!-- /.row (nested) -->
           </div>
-          <!-- /.col-lg-10 -->
         </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
 
-    <!-- Callout -->
-    <!--
-    <aside class="callout">
-      <div class="text-vertical-center">
-        <h1>Research</h1>
+        <div class="col-lg-5">
+          <div class="about-descr">
+            <p class="separator" style = "text-align: left">In the paper I derive asymptotic risk (expected loss) results for shrinkage estimators with multidimensional regularization in high-dimensional settings. </p>
+
+            <p class="separator" style = "text-align: left">I introduce the MuSE (multidimensional shrinkage estimator) class, which includes the elastic net, extending the analysis of Abadie and Kasy 2018. </p>
+
+            <p class="separator" style = "text-align: left">I show that as the number of parameters to estimate grows the empirical loss converges to the oracle-optimal risk. </p>
+
+            <p class="separator" style = "text-align: left">To help guide applied researchers in their choice of estimator I compare the empirical Bayes risk of the lasso, ridge and elastic net in a spike and normal setting. See the figure for the lasso vs. elastic net comparison for different sparsity settings.</p>
+          </div>
+
+        </div>
       </div>
-    </aside>
-    -->
-    <!-- Portfolio -->
-  <!--
-    <section id="portfolio" class="portfolio">
-      <div class="container">
+    </div>
+  <!-- End section portfolio -->
+
+
+  <!-- start section journal -->
+  <div id="journal" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Media</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-6">
+          <ul class="w3-ul w3-border">
+            <li >"La incertesa s’apodera d’un milió d’estudiants per si Trump retira els visats", Ara, July 2020.
+            <a href="https://www.ara.cat/internacional/permisos-residencia-estudiants-estats-units-trump-coronavirus-covid-19_0_2489151069.html">link</a>
+            </li> 
+            <li >"Miles de estudiantes extranjeros en estados unidos quedan en la incertidumbre por el cambio de normas de inmigracion", El Pais, July 2020.
+            <a href="https://elpais.com/sociedad/2020-07-07/miles-de-estudiantes-extranjeros-en-estados-unidos-quedan-en-la-incertidumbre-por-el-cambio-de-normas-de-inmigracion.html">link</a>
+            </li> 
+            <li >"Barcelona: Bilinguismo Informatico", La Vanguardia, Jan 2020.
+            <a href="https://www.lavanguardia.com/local/barcelona/20200120/472920659101/barcelona-global-bilinguismo-cientifico.html">link</a>
+            </li> 
+            <li >"FCA researchers outline $5bn ‘tax’ imposed by high-speed trading", FT, Jan 2020. On the work I did as an RA for Prof. Eric Budish.
+            <a href="https://www.ft.com/content/6eba2a7a-4114-11ea-bdb5-169ba7be433d">link</a>
+            </li> 
+            <li >"Independence Games", El Periodico, June 2014. This article explains my work modelling the catalan independence process using game theory (see Figure).
+            <a href="https://www.elperiodico.com/es/economia/20140620/independence-games-3319932">link</a>
+            </li> 
+          </ul>
+        </div>
+
+        <div class="col-md-5">
+          <img src="images/independence.jpg" alt="paper" style="border: 0.5px solid #5555" width="425" height="300">
+        </div>
+      </div>
+     
+
+    </div>
+  </div>
+  <!-- End section journal -->
+
+
+  <!-- start sectoion contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
         <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <h2>Sample Work</h2>
-            <hr class="small">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="https://drive.google.com/file/d/0B_Y_l2arIrHsLTJfaTRMZy16WFU/view?usp=sharing">
-                    <img class="img-portfolio img-fluid" src="img/ps2.jpg"> STATA PSet Eg (ECON 250 Field Exam UC Berkeley)
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="https://drive.google.com/file/d/0B_Y_l2arIrHseGJKaFhrcHhIWHM/view?usp=sharing">
-                    <img class="img-portfolio img-fluid" src="img/gv101.jpg"> Qualitative Essay Eg (GV101 LSE)
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="https://drive.google.com/file/d/0B_Y_l2arIrHsMkNtR1ZyaUlRdms/view?usp=sharing">
-                    <img class="img-portfolio img-fluid" src="img/games.jpg">Independence Games: Game Theory Essay (2013)
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="https://drive.google.com/file/d/0B_Y_l2arIrHsel9jdVRjS2pMOHc/view?usp=sharing">
-                    <img class="img-portfolio img-fluid" src="img/ps3.jpg">  Python + Theory PSet Eg (ECON 250 UC Berkeley)
-                  </a>
-                </div>
-              </div>
-            </div> -->
-            <!--<a href="#" class="btn btn-dark">View More Items</a>-->
-  <!--
+
+          <div class="col-lg-12">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">GET IN TOUCH</h2>
+
+              <ul class="contact-details">
+                <li><span>MIT Economics</span></li>
+                <li><span>MA, United States</span></li>
+                <li><span>+1 (617) 460 5520</span></li>
+                <li><span>vives@mit.edu</span></li>
+              </ul>
+
+            </div>
           </div>
         </div>
       </div>
-    </section>
-  -->
-    <!-- Call to Action -->
-    <!--
-    <aside class="call-to-action bg-primary text-white">
-      <div class="container text-center">
-        <h3>The buttons below are impossible to resist.</h3>
-        <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-        <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+    </div>
+  </div>
+  <!-- start sectoion contact -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <p>&copy; Copyrights Folio. All rights reserved.</p>
+
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+        -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
-    </aside>
-    -->
-    <!-- Map -->
-    <!--
-    <section id="contact" class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-      <br/>
-      <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-      </small>
-    </section>
-    -->
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <h4>
-              <strong>Contact</strong>
-            </h4>
-            <ul class="list-unstyled">
-              <li>
-                <i class="fa fa-phone fa-fw"></i>
-                +44 (0) 7479482037</li>
-              <li>
-                <i class="fa fa-envelope-o fa-fw"></i>
-                <a href="mailto:name@example.com">jaume.vives11@gmail.com</a>
-              </li>
-            </ul>
-            <!--
-            <br>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook fa-fw fa-3x"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter fa-fw fa-3x"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-dribbble fa-fw fa-3x"></i>
-                </a>
-              </li>
-            </ul>
-            -->
-            <hr class="small">
-            <p class="text-muted"></p>
-          </div>
-        </div>
-      </div>
-      <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
-        <i class="fa fa-chevron-up fa-fw fa-1x"></i>
-      </a>
-    </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    </div>
+  </div>
+  <!-- End section footer -->
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
 
-  </body>
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
 
 </html>
